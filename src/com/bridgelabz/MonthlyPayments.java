@@ -19,7 +19,6 @@ public class MonthlyPayments
 
         System.out.println("Monthly payment required: " + monthlyPayment(principleAmount, year, rate));
     }
-
     public static int monthlyPayment(double principleAmount, double year, double rate)
     {
         double r = rate / (12 * 100);
